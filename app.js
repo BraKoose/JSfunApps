@@ -1,11 +1,18 @@
-var ks = [];
+var color = "red";
+var speed = 20;
 
-for(let a = 17; a > 15; a++){
-    ks.push(function()  {
-        console.log(a);
-    })
+function go(){
+    console.log("vroom");
 }
 
-ks.forEach(function(f){
-    f();
-})
+var car = {
+    color,
+    speed,
+    go(){
+        console.log("vroom");
+    }
+};
+console.log(car.speed);
+console.log(car.color);
+car.go();
+
