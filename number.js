@@ -1,4 +1,5 @@
 var salvation = "Hello";
+var places = "Exo Planets";
 var greeting =`${salvation},
     You 
     Can 
@@ -7,6 +8,6 @@ var greeting =`${salvation},
     You
     Should
     Be
-    Hunger!`        
+    Hunger!         ${places}`        
 
 console.log(greeting);
