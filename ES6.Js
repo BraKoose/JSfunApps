@@ -3,4 +3,4 @@ var createGreeting = function(messgae, name){
 }
 
 var createGreeting = 'Hello';
-console.log(createGreeting)
+console.log(createGreeting);
